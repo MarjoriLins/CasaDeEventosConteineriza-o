@@ -1,0 +1,13 @@
+services:
+  json-server:
+    build:
+      dockerfile: json-server.Dockerfile
+    ports: 
+    - 3000:3000
+  site:
+    build: 
+      dockerfile: site.Dockerfile
+    ports:
+    - "8080:8080"
+    depends_on:
+    - json-server

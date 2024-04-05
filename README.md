@@ -73,5 +73,8 @@ Digitar o comando abaixo para rodar o mock local
 ```sh
 json-server --watch eventos.json
 ```
-
-### _Pronto! Seu projeto já estará rodando no endereço http://localhost:5173_
+```sh
+rodando o docker:
+docker compose build
+```
+### _Pronto! Seu projeto já estará rodando no endereço http://localhost:8080_
